@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d7036; 
+  color: #fff;
+  padding: 1.5rem 4rem;
+  height: 70px;
+  font-family: Arial, sans-serif;
+}
+
+.text {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #c0ffc0;
+}

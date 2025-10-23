@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "../components/Header/Header";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Hadasim Shopping App",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
