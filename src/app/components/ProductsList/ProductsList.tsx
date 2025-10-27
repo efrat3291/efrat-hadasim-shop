@@ -14,7 +14,7 @@ const ProductsList: React.FC = () => {
         const loadProducts = async () => {
             try {
                 const data: Product[] = await fetchProducts();
-                console.log('✅ Products from server:', data);
+                console.log(data);
                 setProducts(data);
             } catch (err: unknown) {
                 if (err instanceof Error) {

@@ -19,9 +19,9 @@ const Card: React.FC<CardProps> = ({ image, title, description, price }) => {
             <div className={styles.cardContent}>
                 <h3 className={styles.cardTitle}>{title}</h3>
                 <p className={styles.cardDescription}>{description}</p>
-                <p className={styles.cardPrice}>
+                {/* <p className={styles.cardPrice}>
                     {typeof price === 'number' ? `$${price.toFixed(2)}` : 'N/A'}
-                </p>
+                </p> */}
             </div>
         </div>
     );
